@@ -14,6 +14,7 @@ function Form() {
             }
         }
         setState({...state, [nam]: val, errormessage: err});
+        /*TODO: the setState function is called to update the component's state. The spread operator (...) is used to create a new object that includes the current state, and then the nam and val variables are used to update the corresponding properties in the state. The errormessage property is also updated with the value of err.*/
     };
 
     return (<form>
